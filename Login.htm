@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <title>Login Page</title>
+        <link href="style.css" rel="stylesheet">
+        <meta name="description" content="Purchase Food Web Application">
+        <meta name="keyword" content="Purchase,Food,Purchase Web, Online food, Online shopping">
+        <meta name="viewpoint" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <header>
+            <h1>Purchase Food Page</h1>
+        </header>
+        <div class="clearfix">
+        <!--Information Box-->
+            <div class="box">
+                <h1>Information</h1>
+                <div class="blank">
+                    <label>Full Name: </label>
+                    <input type="text" name="name" required placeholder="Fill Information Here"> 
+                </div>
+                <div class="blank">
+                    <label>Address: </label>
+                    <input type="text" name="addr" required placeholder="Fill Information Here">
+                </div> 
+                <div class="blank">
+                    <label>Gmail: </label>
+                    <input type="email" name="mail" required placeholder="Fill Information Here">
+                </div>
+                <div>
+                    <label id="G1">Gender: </label>
+                    <span>
+                        <ul class="Gender">
+                        <li class="Gender">
+                                <input type="radio" name="male">
+                                <label>Male</label>
+                            </li> 
+                            <li class="Gender">  
+                                <input type="radio" name="female">
+                                <label>Female</label>
+                            </li> 
+                            <li class="Gender">
+                                <input type="radio" name="other">
+                                <label>Other</label>
+                            </li>
+                        </ul>  
+                    </span>
+                </div>
+            </div>
+            <!--Food Box-->
+            <div class="Food">
+                <h1>Food Purchase</h1>
+                <ul id="F1">
+                    <li>
+                        <input type="radio" name="chicken">
+                        <label>Chicken and Fries</label>
+                        <ul>
+                            <li>
+                                <input type="radio" name="combo1c">
+                                <label>Combo for 1 person</label>  
+                            </li>
+                            <li>
+                                <input type="radio" name="combo2c">
+                                <label>Combo for 2 persons</label>  
+                            </li>
+                            <li>
+                                <input type="radio" name="combo4c">
+                                <label>Combo for 4 persons</label>  
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <input type="radio" name="burger">
+                        <label>Burger and Fries</label>
+                        <ul>
+                            <li>
+                                <input type="radio" name="combo1b">
+                                <label>Combo for 1 person</label>  
+                            </li>
+                            <li>
+                                <input type="radio" name="combo2b">
+                                <label>Combo for 2 persons</label>  
+                            </li>
+                            <li>
+                                <input type="radio" name="combo4b">
+                                <label>Combo for 4 persons</label>  
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <input type="radio" name="spaghetti">
+                        <label>Spaghetti</label>
+                        <ul>
+                            <li>
+                                <input type="radio" name="combo1s">
+                                <label>Combo for 1 person</label>  
+                            </li>
+                            <li>
+                                <input type="radio" name="combo2s">
+                                <label>Combo for 2 persons</label>  
+                            </li>
+                            <li>
+                                <input type="radio" name="combo4s">
+                                <label>Combo for 4 persons</label>  
+                            </li>                      
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+                <!--Text Area (for Feedback)-->
+             <textarea name="note" class="note" placeholder="Your Note ..."></textarea>
+             <div id="button">
+                 <input id="b1" type="button" name="submit" value="Submit">
+             </div>  
+       
+        <script src="Source.js"></script>
+    </body>
+</html>
+    
