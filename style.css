@@ -1,0 +1,76 @@
+body{
+    font-family: sans-serif;
+}
+h1{
+    text-align: center;
+    font-size: 250%;
+    transform: translate(0px, 5px);
+}
+.Full{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    float: left;
+    margin-top: 1%;
+    margin-left: 15%;
+}
+.box{ 
+    border: 2px solid #ccc;
+    border-radius: 2px;
+    box-sizing: border-box;
+    width: 500px;
+    height: auto;
+    padding: 0px 0px 10px 25px;
+}
+.note{
+    width: 498px;
+    padding: 0px 0px 10px 0px;
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#button {
+    float: none;
+    margin-left: 25%;
+    padding: 0px 250px;
+}
+#b1{
+    width: 100px;
+    height: 40px;
+}
+.blank {
+    padding: 8px 20px;
+    width: 100px;
+}
+
+.blank [type="text"],[type="email"]{
+    width: 350px;
+    padding: 10px;
+}
+ul{
+    list-style-type: none;
+}
+.Gender {
+    display:inline;
+    padding-left: 2px;
+}
+#G1 {
+    padding-left: 20px;
+}
+.Food{
+    float: left;
+    border: 2px solid #ccc;
+    border-radius: 2px;
+    box-sizing: border-box;
+    width: 500px;
+    height: auto;
+    padding: 0px 0px 10px 10px;
+    margin-top: 1%;
+    margin-left: 0%;
+}
+.clearfix:after {
+    content:"";
+    display:table;
+    clear:both;
+}
+
