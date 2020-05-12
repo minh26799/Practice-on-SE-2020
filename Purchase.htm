@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <title>Purchase System</title>
+        <link rel="stylesheet" href="PStyle.css">
+        <script src="Pur.js"></script>
+        <meta name="viewpoint" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <div class="menu">
+            <h1>
+                Welcome to our Purchase Page
+            </h1>
+        </div>
+        <div class="title">
+            <p>Please submit your Information here for Delivery</p>
+        </div>
+        <hr>
+        <div class="container">
+            <h2>Information</h2>
+            <h6>* Required Field</h6>
+            <div class="firstpair">
+                <div id="01">
+                    <p>User Name:</p>
+                    <input type="text" id="name" name="name" required placeholder="Your Name">
+                </div>
+                <div id="02">
+                    <p>Phone:</p>
+                    <input type="text" name="phone" required placeholder="Your Phone Number">
+                </div>
+            </div>
+            <div class="secondpair">
+                <div id="03">
+                    <p>City:</p>
+                    <input type="text" name="city" required placeholder="Your City">
+                </div>
+                <div id="04">
+                    <p>District:</p>
+                    <input type="text" name="district" required placeholder="Your District">
+                </div>
+            </div>
+            <div class="thirdpair">
+                <div id="05">
+                    <p>Ward:</p>
+                    <input type="text" name="ward" required placeholder="Your Ward">
+                </div>
+                <div id="06">
+                    <p>Street:</p>
+                    <input type="text" name="street" required placeholder="Your Street">
+                </div>
+            </div>
+            <div class="note">
+                <textarea rows="7" cols="143" placeholder="Your Requirement"></textarea>
+            </div>
+            <div class="button">
+                <form action="Login.htm">
+                    <button>Confirm Your Information</button>
+                </form>
+            </div>
+        </div>
+        <div class="contact">
+
+        </div>
+<script>
+    class person{
+    constructor(name){//,phone,city,district,ward,street,fb) {
+        this.name = name;
+    /*    this.phone = phone;
+        this.city = city;
+        this.district = district;
+        this.ward = ward;
+        this.street = street;
+        this.fb = fb;*/
+    }
+    greetings() {
+        return "Hello" + this.name;
+    }
+}
+
+</script>
+    </body>
+</html>
